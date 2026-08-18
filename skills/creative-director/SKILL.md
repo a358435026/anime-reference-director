@@ -10,6 +10,8 @@ license: MIT
 
 将参考片中“有效的方法”重新组合成原创表达。目标不是更像参考，而是同等级甚至更强的导演完成度。
 
+在高动作项目中必须读取 `../../references/kinetic-fidelity-gate.md`。原创首先改变“表达”，不能先破坏参考片的运动语法和能量曲线。
+
 ## Inputs
 
 - Creative DNA
@@ -35,6 +37,21 @@ license: MIT
 `超大稳定视觉锚点 + 穿越纵深障碍 + 环境受击改变状态`
 → `天空裂开的悬浮天门 + 三层断裂剑阵 + 剑阵被冲击后依次偏转、崩解并改变通道。`
 
+## Kinetic Invariants
+
+在决定原创视觉符号前，先从 Reference Critic 锁定：
+
+- 开场能量等级
+- 地面/空中动作比例
+- 景别变化频率
+- 机位变化强度
+- 环境交互频率
+- 中段空间升级方式
+- 高潮时间位置
+- 末段是否继续加速或进入余韵
+
+除非有明确创作理由，原创方案不得把高动作段改成数秒静态 hero pose，不得用“漂亮但稳定的环形构图”替代参考片原本持续升级的动力学功能。
+
 ## Director Design
 
 先确定：
@@ -43,7 +60,7 @@ license: MIT
 - 主角目标
 - 15 秒内唯一核心冲突
 - 视觉 thesis
-- 能量曲线：起 → 压 → 爆 → 余
+- 能量曲线：起 → 压 → 爆 → 余（必要时按参考片重写为持续升级型）
 - 视觉锚点
 - 主色与对比色
 - 最终画面状态
@@ -55,6 +72,7 @@ license: MIT
 - 观众这一秒新知道/新感受到什么？
 - 如果删掉这一镜，会损失什么？
 - 这一镜的结束状态如何喂给下一镜？
+- 这一镜是否维持了参考片的 kinetic function？
 
 没有功能的镜头删除。
 
@@ -66,13 +84,14 @@ license: MIT
 - `2–6s`：空间和障碍升级。
 - `6–10s`：动作机制出现变化，不重复同一招。
 - `10–13s`：最大冲击或环境状态改变。
-- `13–15s`：可读的 aftermath / transition / hero end state。
+- `13–15s`：按参考能量曲线决定继续加速、转场或短 aftermath。高动作参考片禁止默认用 2–4 秒静态 pose 收尾。
 
 ## Output
 
 - Original concept
 - Visual thesis
 - World / anchor / obstacle redesign
+- Reference-relative kinetic invariants
 - Energy curve
 - Shot/beat timeline
 - Handoff to action-director and vfx-supervisor
